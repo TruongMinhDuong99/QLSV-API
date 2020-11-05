@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quản Lý Users</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+                <form action="/create" method="get" style="margin-top: 5%;margin-left: 5%;">
+                  <table> 
+                    <tr>
+                        <td>
+                          ID:
+                        </td>
+                        <td> 
+                          <input class="input-form size-input" name="ID" type="number" required />
+                        </td>
+                      </tr> 
+                    <tr>
+                        <td>
+                          MSSV:
+                        </td>
+                        <td> 
+                          <input class="input-form size-input" name="MSSV" type="number" required />
+                        </td>
+                      </tr>       
+                     <tr>
+                       <td>
+                         Họ tên:
+                       </td>
+                       <td> 
+                         <input class="input-form size-input" name="HoTen" type="text" required />
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>
+                         Ngày sinh:
+                       </td>
+                       <td> 
+                         <input class="input-form size-input" name="NgaySinh" type="date" required />
+                       </td>
+                     </tr>
+                     <tr>
+                      <td>
+                        Avata:
+                      </td>
+                      <td> 
+                        <input class="input-form size-input" name="Avata" type="file" accept=".jpg" required />
+                      </td>
+                    </tr>
+                     <tr>
+                       <td>
+                         
+                       </td>
+                       <td style= "text-align:center"> 
+                        <input class="btn btn-success"  type="submit" value="Save"/>
+                         <input class="btn btn-danger"  type="button" onclick="location.href='/'" value="Back"/>
+                       </td>
+                     </tr>    
+                     </table>
+                  </form>
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">  
+   <!-- //<link rel="stylesheet" type="text/css" href="../css/admin.css"> -->
+   <style> 
+    .size-input{
+       width: 350px;
+       height: 30px;
+      
+    }
+    </style>
+</html>
+  

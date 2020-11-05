@@ -1,0 +1,30 @@
+[
+    {
+        "ID":"1",
+        "MSSV":"17067191",
+        "HoTen":"Trương Minh Dương",
+        "NgaySinh":"1999-04-29",
+        "Avata":"1.jpg"
+    },
+    {
+        "ID":"2",
+        "MSSV":"17058191",
+        "HoTen":"Nguyễn Văn A",
+        "NgaySinh":"1999-07-29",
+        "Avata":"2.jpg"
+    },
+    {
+        "ID":"3",
+        "MSSV":"17061918",
+        "HoTen":"Nguyễn Văn B",
+        "NgaySinh":"1999-06-29",
+        "Avata":"3.jpg"
+    },  
+    {
+        "ID":"4",
+        "MSSV":"17088471",
+        "HoTen":"Nguyễn Văn C",
+        "NgaySinh":"1999-05-29",
+        "Avata":"4.jpg"
+    }
+  ]

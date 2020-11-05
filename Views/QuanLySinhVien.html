@@ -1,0 +1,104 @@
+
+
+     <!DOCTYPE html>
+     <html>
+        <head>
+     
+           <title>Model Example</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+           <!-- Button to Open the Modal -->
+                <!-- <input style="margin-top: 7px;margin-bottom: 6px;" type="button" class="btn btn-primary" onclick="location.href='/new'" value="Thêm Mới"/>   -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+           </button>
+      
+      
+          <div class="modal" id="myModal"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+           <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                 <h4 class="modal-title">Modal Title</h4>
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+               <form action="/create" method="get" style="margin-top: 5%;margin-left: 5%;">
+                  <table> 
+                    <tr>
+                        <td>
+                          ID:
+                        </td>
+                        <td> 
+                          <input class="input-form size-input" name="ID" type="number" required />
+                        </td>
+                      </tr> 
+                    <tr>
+                        <td>
+                          MSSV:
+                        </td>
+                        <td> 
+                          <input class="input-form size-input" name="MSSV" type="number" required />
+                        </td>
+                      </tr>       
+                     <tr>
+                       <td>
+                         Họ tên:
+                       </td>
+                       <td> 
+                         <input class="input-form size-input" name="HoTen" type="text" required />
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>
+                         Ngày sinh:
+                       </td>
+                       <td> 
+                         <input class="input-form size-input" name="NgaySinh" type="date" required />
+                       </td>
+                     </tr>
+                     <tr>
+                      <td>
+                        Avata:
+                      </td>
+                      <td> 
+                        <input class="input-form size-input" name="Avata" type="file" accept=".jpg" required />
+                      </td>
+                    </tr>
+                     <tr>
+                       <td>
+                         
+                       </td>
+                       <td style= "text-align:center"> 
+                        <input class="btn btn-success"  type="submit" value="Save"/>
+                         <input class="btn btn-danger"  type="button" onclick="location.href='/'" value="Back"/>
+                       </td>
+                     </tr>    
+                     </table>
+                  </form>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+           </div>
+        </div>
+     </div>
+     
+        </body>
+        
+     </html>
